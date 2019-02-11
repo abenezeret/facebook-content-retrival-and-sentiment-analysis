@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">454f6fb9dbdf2300cd665421cf9619e8</block>
+        <comment/>
+        <connected_to>65161c52-c1e0-4fc5-9b6c-f5fb26564a12</connected_to>
+        <display_text/>
+        <flow display_value="sentiment analysis flow">5ebaaff5dbdf2300cd665421cf96198c</flow>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-30 11:54:57</sys_created_on>
+        <sys_id>894f6fb9dbdf2300cd665421cf9619e9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Facebook comment analysis" source="x_287654_facebook">5ff55684db6ee300cd665421cf961969</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Facebook comment analysis">5ff55684db6ee300cd665421cf961969</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_894f6fb9dbdf2300cd665421cf9619e9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-30 12:43:02</sys_updated_on>
+        <ui_id>49ecd6cd-da45-4e8c-b4c8-b3a7720cd0be</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=894f6fb9dbdf2300cd665421cf9619e9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>894f6fb9dbdf2300cd665421cf9619e9</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-30 11:54:57</sys_created_on>
+        <sys_id>894f6fb9dbdf2300cd665421cf9619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-30 11:54:57</sys_updated_on>
+        <value>if it is neutral</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>894f6fb9dbdf2300cd665421cf9619e9</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-30 11:54:57</sys_created_on>
+        <sys_id>c54f6fb9dbdf2300cd665421cf9619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-30 11:54:57</sys_updated_on>
+        <value>{{11e21b29-e6e2-4fc0-aac6-fc5f4e426161.ou_value}}=2</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea1</variable>
+    </sys_variable_value>
+</record_update>

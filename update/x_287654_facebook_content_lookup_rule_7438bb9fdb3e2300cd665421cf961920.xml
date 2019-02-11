@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_287654_facebook_content_lookup_rule">
+    <x_287654_facebook_content_lookup_rule action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <order>100</order>
+        <synonym>ትምህርት&#13;
+ጥረት&#13;
+አስተዋፅኦ&#13;
+እርዳታ&#13;
+ሐራጅ&#13;
+ቆንጆ&#13;
+ድንቅ&#13;
+የሚደነቅ&#13;
+ተገቢ&#13;
+የሚስብ&#13;
+በሚገባ&#13;
+በርቱ&#13;
+ዋዉ&#13;
+ያስደስታል&#13;
+የተሻለ</synonym>
+        <sys_class_name>x_287654_facebook_content_lookup_rule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-10 07:54:02</sys_created_on>
+        <sys_id>7438bb9fdb3e2300cd665421cf961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>100</sys_name>
+        <sys_package display_value="Facebook comment analysis" source="x_287654_facebook">5ff55684db6ee300cd665421cf961969</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Facebook comment analysis">5ff55684db6ee300cd665421cf961969</sys_scope>
+        <sys_update_name>x_287654_facebook_content_lookup_rule_7438bb9fdb3e2300cd665421cf961920</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-10 07:54:02</sys_updated_on>
+        <value>5</value>
+        <word>ምንምአይልም</word>
+    </x_287654_facebook_content_lookup_rule>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_trigger_plan">
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"ba518a74dbeb2300cd665421cf961966","name":"plan"}}</plan>
+        <plan_id>6234f13cdbab2300cd665421cf9619fb</plan_id>
+        <snapshot>5ea4b7b4dbef2300cd665421cf961984</snapshot>
+        <sys_class_name>sys_flow_trigger_plan</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-08 11:36:31</sys_created_on>
+        <sys_id>ba518a74dbeb2300cd665421cf961966</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>72518a74dbeb2300cd665421cf961956</sys_name>
+        <sys_package display_value="Facebook comment analysis" source="x_287654_facebook">5ff55684db6ee300cd665421cf961969</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Facebook comment analysis">5ff55684db6ee300cd665421cf961969</sys_scope>
+        <sys_update_name>sys_flow_trigger_plan_ba518a74dbeb2300cd665421cf961966</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-08 11:36:31</sys_updated_on>
+        <trigger display_value="">72518a74dbeb2300cd665421cf961956</trigger>
+    </sys_flow_trigger_plan>
+</record_update>

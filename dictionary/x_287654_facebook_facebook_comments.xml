@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Facebook Comments" max_length="40" name="x_287654_facebook_facebook_comments" type="collection">
+        <element label="Comment ID" max_length="40" name="comment_id" type="string"/>
+        <element label="Content" max_length="4000" name="content" type="string"/>
+        <element label="created time" max_length="40" name="created_time" read_only="true" type="glide_date_time"/>
+        <element label="For Post" max_length="32" name="for_post" read_only="true" reference="x_287654_facebook_facebook_posts" type="reference"/>
+        <element default="0" label="Polarity" max_length="40" name="polarity" read_only="true" type="float"/>
+        <element attributes="edge_encryption_enabled=true" label="Translated" max_length="255" name="translated" type="string_full_utf8"/>
+        <index name="index">
+            <element name="for_post"/>
+        </index>
+    </element>
+</database>

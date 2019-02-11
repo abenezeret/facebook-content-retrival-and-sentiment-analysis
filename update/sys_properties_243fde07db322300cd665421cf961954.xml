@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Facebook access tocken.</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>true</is_private>
+        <name>x_287654_facebook.fb_access_tocken</name>
+        <read_roles>x_287654_facebook.user</read_roles>
+        <suffix>fb_access_tocken</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-09 06:48:28</sys_created_on>
+        <sys_id>243fde07db322300cd665421cf961954</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>x_287654_facebook.fb_access_tocken</sys_name>
+        <sys_package display_value="Facebook comment analysis" source="x_287654_facebook">5ff55684db6ee300cd665421cf961969</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Facebook comment analysis">5ff55684db6ee300cd665421cf961969</sys_scope>
+        <sys_update_name>sys_properties_243fde07db322300cd665421cf961954</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-31 09:44:44</sys_updated_on>
+        <type>string</type>
+        <value>EAAJBZAFOByswBAOqADva1812NpsAv6gIvqJs8SJrDL4qIUoHMmDOKjCgcYHsmBAEF8H25Aa82x1EyYKsrI9AeAkVO5FdZAskb0dFFv9V5YuqZBSTInKl6RZBqeVsZAWmGrfxCC6EX3UV07sdETvE5EjpeuHYiyUPUMqofwYqXZB8Mmw860W423</value>
+        <write_roles>x_287654_facebook.user</write_roles>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=243fde07db322300cd665421cf961954"/>
+</record_update>

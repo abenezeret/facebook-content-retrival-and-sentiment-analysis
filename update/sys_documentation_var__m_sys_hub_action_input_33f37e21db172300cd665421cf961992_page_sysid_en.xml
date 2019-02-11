@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="page_sysid" label="page SYSID" language="en" table="var__m_sys_hub_action_input_33f37e21db172300cd665421cf961992">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>page_sysid</element>
+            <help/>
+            <hint/>
+            <label>page SYSID</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_33f37e21db172300cd665421cf961992</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-29 12:57:31</sys_created_on>
+            <sys_id>bbf37e21db172300cd665421cf96199f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>page SYSID</sys_name>
+            <sys_package display_value="Facebook comment analysis" source="x_287654_facebook">5ff55684db6ee300cd665421cf961969</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Facebook comment analysis">5ff55684db6ee300cd665421cf961969</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_33f37e21db172300cd665421cf961992_page_sysid_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-29 12:57:31</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

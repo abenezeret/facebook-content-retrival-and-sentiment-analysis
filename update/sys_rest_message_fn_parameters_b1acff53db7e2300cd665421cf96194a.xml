@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
+        <name>access_tocken</name>
+        <rest_message_function display_value="comment_content load">42babfdfdb3e2300cd665421cf961961</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-10 08:12:56</sys_created_on>
+        <sys_id>b1acff53db7e2300cd665421cf96194a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>access_tocken</sys_name>
+        <sys_package display_value="Facebook comment analysis" source="x_287654_facebook">5ff55684db6ee300cd665421cf961969</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Facebook comment analysis">5ff55684db6ee300cd665421cf961969</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_b1acff53db7e2300cd665421cf96194a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-10 08:13:20</sys_updated_on>
+        <type>string</type>
+        <value>EAAVAeUhVG28BAC0ZCTjafD6ZApFCAi9Ie77sSQNZABc5tl9uPQQhPp5R4F436NA0Ay5gGaqMiFBDLcs7pjTrGpg21Uflq8OAsWxbWTGAoZAKSMy5FkMVYTa1c57yLtgFjsOY2mBokDSGqoYqEpFEuyOOZA1ZCZCOz32l0Lmm6riuryaH6Yl3DbVsSt88tA4vu8ZD</value>
+    </sys_rest_message_fn_parameters>
+</record_update>

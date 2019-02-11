@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="respond Json comments analysis">867cbd70dbeb2300cd665421cf96190f</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot display_value="">20f93130dbeb2300cd665421cf9619b7</compiled_snapshot>
+        <display_text/>
+        <flow display_value="scheduled comment loader">8a514a74dbeb2300cd665421cf9619cd</flow>
+        <order>2.3</order>
+        <parent_ui_id>955d93fb-2854-4ec8-8cf8-4f6942d3c7b5</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-08 11:36:29</sys_created_on>
+        <sys_id>da518a74dbeb2300cd665421cf961905</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Facebook comment analysis" source="x_287654_facebook">5ff55684db6ee300cd665421cf961969</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Facebook comment analysis">5ff55684db6ee300cd665421cf961969</sys_scope>
+        <sys_update_name>sys_hub_action_instance_da518a74dbeb2300cd665421cf961905</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-08 11:36:29</sys_updated_on>
+        <ui_id>4c77b1a3-6299-4ec0-98bb-d1d626f06a4b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=da518a74dbeb2300cd665421cf961905"/>
+    <sys_element_mapping action="delete_multiple" query="id=da518a74dbeb2300cd665421cf961905"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>page_sysid</field>
+        <id>da518a74dbeb2300cd665421cf961905</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-08 11:36:29</sys_created_on>
+        <sys_id>96518a74dbeb2300cd665421cf96190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-08 11:36:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_867cbd70dbeb2300cd665421cf96190f</table>
+        <value>{{955d93fb-2854-4ec8-8cf8-4f6942d3c7b5.item.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>responsebody</field>
+        <id>da518a74dbeb2300cd665421cf961905</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-08 11:36:29</sys_created_on>
+        <sys_id>d2518a74dbeb2300cd665421cf96190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-08 11:36:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_867cbd70dbeb2300cd665421cf96190f</table>
+        <value>{{60f30e70-e15e-41e9-b5b6-e9b589a853f7.responsebody}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resposecode</field>
+        <id>da518a74dbeb2300cd665421cf961905</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-08 11:36:29</sys_created_on>
+        <sys_id>6a518a74dbeb2300cd665421cf96190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-08 11:36:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_867cbd70dbeb2300cd665421cf96190f</table>
+        <value>{{60f30e70-e15e-41e9-b5b6-e9b589a853f7.resposecode}}</value>
+    </sys_element_mapping>
+</record_update>

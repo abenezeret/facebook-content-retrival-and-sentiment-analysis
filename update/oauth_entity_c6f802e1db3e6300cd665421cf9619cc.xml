@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
+    <oauth_entity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <access_token_lifespan>1800</access_token_lifespan>
+        <active>true</active>
+        <auth_code_lifespan>60</auth_code_lifespan>
+        <auth_url/>
+        <certificate_url/>
+        <client_id>86f802e1953e63003f2acbfc9f194ecc</client_id>
+        <client_secret>g7BFmg/MZrTOCn801l/sRA==</client_secret>
+        <client_uuid>46f802e1db3e6300cd665421cf9619cc</client_uuid>
+        <comments/>
+        <default_grant_type>password</default_grant_type>
+        <id_token_lifespan>86400</id_token_lifespan>
+        <logo_url/>
+        <message_signature_lifespan>60</message_signature_lifespan>
+        <name>Facebook</name>
+        <oauth_api_script/>
+        <protocol_name/>
+        <redirect_url/>
+        <refresh_token_lifespan>8640000</refresh_token_lifespan>
+        <revoke_token_url/>
+        <salt/>
+        <sys_class_name>oauth_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-04 13:18:33</sys_created_on>
+        <sys_id>c6f802e1db3e6300cd665421cf9619cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Facebook</sys_name>
+        <sys_package display_value="Facebook comment analysis" source="x_287654_facebook">5ff55684db6ee300cd665421cf961969</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Facebook comment analysis">5ff55684db6ee300cd665421cf961969</sys_scope>
+        <sys_update_name>oauth_entity_c6f802e1db3e6300cd665421cf9619cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-04 13:18:33</sys_updated_on>
+        <token_url/>
+        <type>client</type>
+        <use_mutual_auth>false</use_mutual_auth>
+        <user/>
+    </oauth_entity>
+</record_update>

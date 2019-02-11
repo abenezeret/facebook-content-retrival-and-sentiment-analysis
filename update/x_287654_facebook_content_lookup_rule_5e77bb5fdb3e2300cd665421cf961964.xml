@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_287654_facebook_content_lookup_rule">
+    <x_287654_facebook_content_lookup_rule action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <order>100</order>
+        <synonym>ዘመናዊ&#13;
+ታማኝ&#13;
+የማይበገር&#13;
+አመርቂ&#13;
+አድናቆት&#13;
+አእምሮ&#13;
+ውድ&#13;
+ተፈላጊ&#13;
+ገነት&#13;
+ከፍተኛ&#13;
+የተስተካከለ&#13;
+ጀግንነት&#13;
+ቆራጥ&#13;
+መረጋጋት&#13;
+ጥዱ&#13;
+መረዳዳት&#13;
+ራእይ&#13;
+ዝምተኛ</synonym>
+        <sys_class_name>x_287654_facebook_content_lookup_rule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-10 07:50:33</sys_created_on>
+        <sys_id>5e77bb5fdb3e2300cd665421cf961964</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>100</sys_name>
+        <sys_package display_value="Facebook comment analysis" source="x_287654_facebook">5ff55684db6ee300cd665421cf961969</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Facebook comment analysis">5ff55684db6ee300cd665421cf961969</sys_scope>
+        <sys_update_name>x_287654_facebook_content_lookup_rule_5e77bb5fdb3e2300cd665421cf961964</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-10 07:50:33</sys_updated_on>
+        <value>10</value>
+        <word>ሰላማዊ</word>
+    </x_287654_facebook_content_lookup_rule>
+</record_update>

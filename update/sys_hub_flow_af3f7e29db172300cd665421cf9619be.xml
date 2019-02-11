@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>scedule_feed_loader</internal_name>
+        <label_cache>[{"name":"9aab7f07-0819-4e43-b255-41953efca557.respondcode","label":"2.2.1➛respondCode","reference_display":"respondCode","type":"string","base_type":"string"},{"name":"9aab7f07-0819-4e43-b255-41953efca557.respondbody","label":"2.2.1➛respondBody","reference_display":"respondBody","type":"string","base_type":"string"},{"name":"30065edd-5445-4821-9bc3-407645f60ec9.sentimentresponse","label":"3➛sentimentResponse","reference_display":"sentimentResponse","type":"string","base_type":"string"},{"name":"0be0be14-4e6f-41df-8259-3369f11b9e0d.property_value","label":"3➛property_value","reference_display":"property_value","type":"string","base_type":"string"},{"name":"4d7f4dfd-ad17-40f6-bcf9-4ecd21d0cef8.sentimentresponse","label":"3➛sentimentResponse","reference_display":"sentimentResponse","type":"string","base_type":"string"},{"name":"c66276cd-d219-48ed-be1e-72656aa65e33.resposecode","label":"2.2.1➛resposeCode","reference_display":"resposeCode","type":"string","base_type":"string"},{"name":"c66276cd-d219-48ed-be1e-72656aa65e33.responsebody","label":"2.2.1➛responseBody","reference_display":"responseBody","type":"string","base_type":"string"},{"name":"5575dc24-b018-45fa-b3b0-c9a0201bc625.resposecode","label":"2.2.1➛resposeCode","reference_display":"resposeCode","type":"string","base_type":"string"},{"name":"5575dc24-b018-45fa-b3b0-c9a0201bc625.responsebody","label":"2.2.1➛responseBody","reference_display":"responseBody","type":"string","base_type":"string"},{"name":"ec5a4eca-fdd9-49f8-843c-8d14e11e0268.encoded_created_time","label":"3➛encoded created time","reference_display":"encoded created time","type":"integer_date","base_type":"integer_date"},{"name":"7091742e-b559-4198-8b40-1c3db4b45aa0.Records","label":"1➛Facebook page Records","reference":"x_287654_facebook_facebook_page","reference_display":"Facebook page","type":"records","base_type":"records"},{"name":"7091742e-b559-4198-8b40-1c3db4b45aa0.Table","label":"1➛Facebook page Table","reference":"x_287654_facebook_facebook_page","reference_display":"Facebook page","type":"table_name","base_type":"table_name"},{"name":"7091742e-b559-4198-8b40-1c3db4b45aa0.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"b69f9765-7d49-4e8f-a0c7-5487c6769ce8.item","label":"2➛Facebook page Record","reference":"x_287654_facebook_facebook_page","reference_display":"Facebook page","type":"reference","base_type":"reference"},{"name":"d02aceb3-f6ea-4ed1-8e4c-7a5bfe792fa9.encoded_created_time","label":"2.1➛encoded created time","type":"string","base_type":"string"},{"name":"b69f9765-7d49-4e8f-a0c7-5487c6769ce8.item.sys_id","label":"2➛Facebook page Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_287654_facebook_facebook_page","column_name":"sys_id"},{"name":"49f84a48-2d15-4715-809c-a13404f533fd.responsebody","label":"2.3➛responseBody","reference_display":"responseBody","type":"string","base_type":"string"},{"name":"49f84a48-2d15-4715-809c-a13404f533fd.resposecode","label":"2.3➛resposeCode","reference_display":"resposeCode","type":"string","base_type":"string"},{"name":"b69f9765-7d49-4e8f-a0c7-5487c6769ce8.item.page_id","label":"2➛Facebook page Record➛page ID","reference":"","reference_display":"page ID","type":"string","base_type":"string","parent_table_name":"x_287654_facebook_facebook_page","column_name":"page_id"},{"name":"4bd81ca2-df4a-416b-827a-e5a5d7bff380.name","label":"2.3➛name","reference_display":"name","type":"string","base_type":"string"},{"name":"4bd81ca2-df4a-416b-827a-e5a5d7bff380.catagory","label":"2.3➛catagory","reference_display":"catagory","type":"string","base_type":"string"},{"name":"4bd81ca2-df4a-416b-827a-e5a5d7bff380.description","label":"2.3➛description","reference_display":"description","type":"string","base_type":"string"},{"name":"4bd81ca2-df4a-416b-827a-e5a5d7bff380.state","label":"2.3➛state","reference_display":"state","type":"boolean","base_type":"boolean"},{"name":"4835bcff-b216-42df-bb87-b3b71ab608f4.responsebody","label":"2.2.1➛responseBody","type":"string","base_type":"string"},{"name":"4835bcff-b216-42df-bb87-b3b71ab608f4.resposecode","label":"2.2.1➛resposeCode","type":"string","base_type":"string"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>scedule feed loader</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>true</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-29 13:46:39</sys_created_on>
+        <sys_id>af3f7e29db172300cd665421cf9619be</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>scedule feed loader</sys_name>
+        <sys_package display_value="Facebook comment analysis" source="x_287654_facebook">5ff55684db6ee300cd665421cf961969</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Facebook comment analysis">5ff55684db6ee300cd665421cf961969</sys_scope>
+        <sys_update_name>sys_hub_flow_af3f7e29db172300cd665421cf9619be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-08 10:41:31</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=af3f7e29db172300cd665421cf9619be"/>
+    <sys_variable_value action="delete_multiple" query="document_key=af3f7e29db172300cd665421cf9619be"/>
+</record_update>

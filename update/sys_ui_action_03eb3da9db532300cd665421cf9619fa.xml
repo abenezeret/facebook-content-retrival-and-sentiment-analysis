@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2/>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint>get page feeds</hint>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>load page  Feed</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[gs.info('in load page feed UI action');
+
+
+//  current.get_feed_ui_action = true;
+//  current.update();
+
+//  gs.info('ui action value is ='+current.get_feed_ui_action);
+
+try {
+	
+	
+	var gr = new GlideRecord("x_287654_facebook_facebook_posts");
+	gr.addEncodedQuery('post_page='+current.sys_id);
+	gr.orderByDesc('created_time');
+	gr.query();
+	var ct='';
+	if(gr.next()){	
+	ct = gr.created_time;
+	}
+	gs.info('recent created post time is = '+ct );
+	
+	
+	
+	var r = new sn_ws.RESTMessageV2('x_287654_facebook.facebook_post_retrival', 'Page feed loader');
+	r.setStringParameterNoEscape('page_id', current.page_id);
+	r.setStringParameterNoEscape('since', gs.urlEncode(ct));
+	r.setStringParameterNoEscape('access_tocken',gs.getProperty('x_287654_facebook.fb_access_tocken'));
+	var response = r.execute();
+	var responseString = response.getBody();
+	var httpStatus = response.getStatusCode();
+	
+
+	var responseObject = JSON.parse(responseString);
+	
+	gs.info('length is ='+responseObject.data.length+"  "+' page id is ='+current.page_id+'  response body is ='+responseString);
+	
+	if(responseObject.error ==null && httpStatus == 200){
+		if(responseObject.data.length != 0){
+		
+		var gr = new GlideRecord("x_287654_facebook_facebook_posts");
+		var cDate = null;
+		
+		for(var i=0;i<responseObject.data.length ; i++)
+			{
+			gs.info('in for loop');
+			
+			postId = responseObject.data[i].id;
+			postConent = responseObject.data[i].message;
+			createdTime = responseObject.data[i].created_time;
+			createdTime= createdTime.replace('T',' ');
+			createdTime = createdTime.substring(0,createdTime.indexOf('+'));
+			cDate =    new GlideDateTime(createdTime);
+			
+			gr.initialize();
+			gr.post_page = current.sys_id;
+			gr.created_time = cDate;
+			gr.post_id  = postId;
+			gr.post_content = postConent;
+			gr.insert();
+			gs.info("post id ="+postId +'page id ='+current.sys_id + 'dates'+cDate);
+		}
+		gs.addInfoMessage(responseObject.data.length+'  Feeds successfully loaded');
+		action.setRedirectURL ( './x_287654_facebook_facebook_posts_list.do?sysparm_query=' ) ;
+		
+		}else{
+					gs.addInfoMessage('no new feed in the page. 0 feed loaded');
+
+		}
+	}
+	else{
+					gs.addInfoMessage('no feed is loaded due to Rest problem');
+
+	}
+
+	
+	
+}
+catch(ex) {
+	var message = ex.message;
+	gs.info('errre is ='+message);
+}]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-29 08:54:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>03eb3da9db532300cd665421cf9619fa</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name>load page  Feed</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Facebook comment analysis" source="x_287654_facebook">5ff55684db6ee300cd665421cf961969</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Facebook comment analysis">5ff55684db6ee300cd665421cf961969</sys_scope>
+        <sys_update_name>sys_ui_action_03eb3da9db532300cd665421cf9619fa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-31 08:28:46</sys_updated_on>
+        <table>x_287654_facebook_facebook_page</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

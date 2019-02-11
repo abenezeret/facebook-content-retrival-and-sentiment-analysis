@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>sentiment analysis for post</description>
+        <internal_name>sentiment_analysis_for_post</internal_name>
+        <label_cache>[{"name":"76429c95-960f-4451-a2bb-078a9f34e8dd.table_name","label":"6.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"76429c95-960f-4451-a2bb-078a9f34e8dd.record","label":"6.1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"3df68077-e8e7-4b89-ae7e-51436f155a1c.table_name","label":"5.1➛Facebook Posts Table","reference":"x_287654_facebook_facebook_posts","reference_display":"Facebook Posts","type":"table_name","base_type":"table_name"},{"name":"3df68077-e8e7-4b89-ae7e-51436f155a1c.record","label":"5.1➛Facebook Posts Record","reference":"x_287654_facebook_facebook_posts","reference_display":"Facebook Posts","type":"reference","base_type":"reference"},{"name":"Updated_1.current","label":"Trigger➛Facebook Posts Record","reference":"x_287654_facebook_facebook_posts","reference_display":"Facebook Posts","type":"reference","base_type":"reference"},{"name":"cd29805c-e89a-49dc-9b96-c166119f4c09.table_name","label":"4.1➛Facebook Posts Table","reference":"x_287654_facebook_facebook_posts","reference_display":"Facebook Posts","type":"table_name","base_type":"table_name"},{"name":"cd29805c-e89a-49dc-9b96-c166119f4c09.record","label":"4.1➛Facebook Posts Record","reference":"x_287654_facebook_facebook_posts","reference_display":"Facebook Posts","type":"reference","base_type":"reference"},{"name":"f080749f-7db8-4047-9cdf-715ed255900a.ou_value","label":"3➛ou_value","reference_display":"ou_value","type":"integer","base_type":"integer"},{"name":"Updated_1.current.translated_text","label":"Trigger➛Facebook Posts Record➛Translated text","reference":"","reference_display":"Translated text","type":"string_full_utf8","base_type":"string_full_utf8","parent_table_name":"x_287654_facebook_facebook_posts","column_name":"translated_text"},{"name":"48a86d6c-c65a-4063-96f5-766d4b5693f2.sentimentresponse","label":"2➛sentimentResponse","reference_display":"sentimentResponse","type":"string","base_type":"string"},{"name":"19624ebd-5d3f-4670-842e-73e6a107107e.property_value","label":"1➛property_value","reference_display":"property_value","type":"string","base_type":"string"}]</label_cache>
+        <master>true</master>
+        <name>sentiment analysis for post</name>
+        <outputs/>
+        <parent_flow display_value="sentiment analysis for post">415ba09edb932300cd665421cf961996</parent_flow>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-31 11:02:02</sys_created_on>
+        <sys_id>7fbcecdedb932300cd665421cf961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sentiment analysis for post</sys_name>
+        <sys_package display_value="Facebook comment analysis" source="x_287654_facebook">5ff55684db6ee300cd665421cf961969</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Facebook comment analysis">5ff55684db6ee300cd665421cf961969</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_7fbcecdedb932300cd665421cf961928</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-31 11:02:02</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=7fbcecdedb932300cd665421cf961928"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7fbcecdedb932300cd665421cf961928"/>
+</record_update>

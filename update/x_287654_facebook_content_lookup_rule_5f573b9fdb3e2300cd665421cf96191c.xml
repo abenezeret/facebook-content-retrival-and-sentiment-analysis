@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_287654_facebook_content_lookup_rule">
+    <x_287654_facebook_content_lookup_rule action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <order>100</order>
+        <synonym>ቀጥታ&#13;
+አብነት&#13;
+ባልንጀራ&#13;
+ስልጡን&#13;
+ምሩቅ&#13;
+ምሩቅ&#13;
+ወዘና&#13;
+ሀላፊነት&#13;
+ትጋት&#13;
+ጥበብ&#13;
+ታታሪ&#13;
+እውነት&#13;
+የላቀ&#13;
+ንቃት&#13;
+በጎ&#13;
+ጣፋጭ&#13;
+ምሁራዊ</synonym>
+        <sys_class_name>x_287654_facebook_content_lookup_rule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-10 07:50:06</sys_created_on>
+        <sys_id>5f573b9fdb3e2300cd665421cf96191c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>100</sys_name>
+        <sys_package display_value="Facebook comment analysis" source="x_287654_facebook">5ff55684db6ee300cd665421cf961969</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Facebook comment analysis">5ff55684db6ee300cd665421cf961969</sys_scope>
+        <sys_update_name>x_287654_facebook_content_lookup_rule_5f573b9fdb3e2300cd665421cf96191c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-10 07:50:06</sys_updated_on>
+        <value>9</value>
+        <word>ኩራት</word>
+    </x_287654_facebook_content_lookup_rule>
+</record_update>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>getting last created time feed from post table.</description>
+        <internal_name>getting_last_created_time_feed</internal_name>
+        <label_cache>[{"name":"{{action.post_page_sysid}}","label":"action➛post_page_sysid","type":"action","ref":""},{"name":"{{step[a46700aa-c5fd-4f03-8002-30ca76e4ad59].}}","label":"step➛Script step➛","type":"step","ref":""},{"name":"{{step[a46700aa-c5fd-4f03-8002-30ca76e4ad59].e}}","label":"step➛Script step➛e","type":"step","ref":""},{"name":"{{step[a46700aa-c5fd-4f03-8002-30ca76e4ad59].en}}","label":"step➛Script step➛en","type":"step","ref":""},{"name":"{{step[a46700aa-c5fd-4f03-8002-30ca76e4ad59].enc}}","label":"step➛Script step➛enc","type":"step","ref":""},{"name":"{{step[a46700aa-c5fd-4f03-8002-30ca76e4ad59].enco}}","label":"step➛Script step➛enco","type":"step","ref":""},{"name":"{{step[a46700aa-c5fd-4f03-8002-30ca76e4ad59].encod}}","label":"step➛Script step➛encod","type":"step","ref":""},{"name":"{{step[a46700aa-c5fd-4f03-8002-30ca76e4ad59].encode}}","label":"step➛Script step➛encode","type":"step","ref":""},{"name":"{{step[a46700aa-c5fd-4f03-8002-30ca76e4ad59].encoded}}","label":"step➛Script step➛encoded","type":"step","ref":""},{"name":"{{step[a46700aa-c5fd-4f03-8002-30ca76e4ad59].encoded_}}","label":"step➛Script step➛encoded_","type":"step","ref":""},{"name":"{{step[a46700aa-c5fd-4f03-8002-30ca76e4ad59].encoded_c}}","label":"step➛Script step➛encoded_c","type":"step","ref":""},{"name":"{{step[a46700aa-c5fd-4f03-8002-30ca76e4ad59].encoded_cr}}","label":"step➛Script step➛encoded_cr","type":"step","ref":""},{"name":"{{step[a46700aa-c5fd-4f03-8002-30ca76e4ad59].encoded_cre}}","label":"step➛Script step➛encoded_cre","type":"step","ref":""},{"name":"{{step[a46700aa-c5fd-4f03-8002-30ca76e4ad59].encoded_crea}}","label":"step➛Script step➛encoded_crea","type":"step","ref":""},{"name":"{{step[a46700aa-c5fd-4f03-8002-30ca76e4ad59].encoded_creat}}","label":"step➛Script step➛encoded_creat","type":"step","ref":""},{"name":"{{step[a46700aa-c5fd-4f03-8002-30ca76e4ad59].encoded_create}}","label":"step➛Script step➛encoded_create","type":"step","ref":""},{"name":"{{step[a46700aa-c5fd-4f03-8002-30ca76e4ad59].encoded_created}}","label":"step➛Script step➛encoded_created","type":"step","ref":""},{"name":"{{step[a46700aa-c5fd-4f03-8002-30ca76e4ad59].encoded_created_}}","label":"step➛Script step➛encoded_created_","type":"step","ref":""},{"name":"{{step[a46700aa-c5fd-4f03-8002-30ca76e4ad59].encoded_created_t}}","label":"step➛Script step➛encoded_created_t","type":"step","ref":""},{"name":"{{step[a46700aa-c5fd-4f03-8002-30ca76e4ad59].encoded_created_ti}}","label":"step➛Script step➛encoded_created_ti","type":"step","ref":""},{"name":"{{step[a46700aa-c5fd-4f03-8002-30ca76e4ad59].encoded_created_tim}}","label":"step➛Script step➛encoded_created_tim","type":"step","ref":""},{"name":"{{step[a46700aa-c5fd-4f03-8002-30ca76e4ad59].encoded_created_time}}","label":"step➛Script step➛encoded_created_time","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>getting last created time feed</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="getting last created time feed">e5cb3671db5f2300cd665421cf9619e1</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-30 08:28:28</sys_created_on>
+        <sys_id>180047b9db5f2300cd665421cf9619cd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>getting last created time feed</sys_name>
+        <sys_package display_value="Facebook comment analysis" source="x_287654_facebook">5ff55684db6ee300cd665421cf961969</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Facebook comment analysis">5ff55684db6ee300cd665421cf961969</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_180047b9db5f2300cd665421cf9619cd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-30 09:53:43</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=180047b9db5f2300cd665421cf9619cd"/>
+    <sys_variable_value action="delete_multiple" query="document_key=180047b9db5f2300cd665421cf9619cd"/>
+    <sys_element_mapping action="delete_multiple" query="id=180047b9db5f2300cd665421cf9619cd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>encoded_created_time</field>
+        <id>180047b9db5f2300cd665421cf9619cd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-30 08:28:29</sys_created_on>
+        <sys_id>600047b9db5f2300cd665421cf9619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-30 08:28:29</sys_updated_on>
+        <table>var__m_sys_hub_action_output_180047b9db5f2300cd665421cf9619cd</table>
+        <value>{{step[a46700aa-c5fd-4f03-8002-30ca76e4ad59].encoded_created_time}}</value>
+    </sys_element_mapping>
+</record_update>

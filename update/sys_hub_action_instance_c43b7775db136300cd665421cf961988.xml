@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Sentiment From GoogleAI">8dca3f35db136300cd665421cf961924</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot display_value="">4d4ce257dbcf2300cd665421cf961904</compiled_snapshot>
+        <display_text/>
+        <flow display_value="sentiment analysis for comment">f72b7775db136300cd665421cf961936</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-30 12:47:03</sys_created_on>
+        <sys_id>c43b7775db136300cd665421cf961988</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Facebook comment analysis" source="x_287654_facebook">5ff55684db6ee300cd665421cf961969</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Facebook comment analysis">5ff55684db6ee300cd665421cf961969</sys_scope>
+        <sys_update_name>sys_hub_action_instance_c43b7775db136300cd665421cf961988</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-08 10:20:13</sys_updated_on>
+        <ui_id>e18ddf7e-cca5-462a-a40c-712a4d0b0231</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c43b7775db136300cd665421cf961988"/>
+    <sys_element_mapping action="delete_multiple" query="id=c43b7775db136300cd665421cf961988"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>api_key</field>
+        <id>c43b7775db136300cd665421cf961988</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-30 12:47:03</sys_created_on>
+        <sys_id>5c3b7775db136300cd665421cf96198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-30 12:47:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_8dca3f35db136300cd665421cf961924</table>
+        <value>{{2ccd12f7-c72d-44c4-a115-4cacbb2510c0.property_value}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>text</field>
+        <id>c43b7775db136300cd665421cf961988</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-30 12:47:03</sys_created_on>
+        <sys_id>103b7775db136300cd665421cf96198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-30 12:47:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_8dca3f35db136300cd665421cf961924</table>
+        <value>{{Updated_1.current.translated}}</value>
+    </sys_element_mapping>
+</record_update>

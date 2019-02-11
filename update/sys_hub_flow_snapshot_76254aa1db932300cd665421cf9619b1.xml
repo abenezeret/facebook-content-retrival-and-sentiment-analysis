@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>get page feed from Facebook triggered by UI action in page table</description>
+        <internal_name>get_page_feed</internal_name>
+        <label_cache>[{"name":"Updated_1.current","label":"Trigger➛Facebook page Record","reference":"x_287654_facebook_facebook_page","reference_display":"Facebook page","type":"reference","base_type":"reference"},{"name":"4d479889-22be-4443-bf7b-46a2120155d0.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"4d479889-22be-4443-bf7b-46a2120155d0.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"33ca371d-f0cf-498b-b301-9d9a3f99f6b4.responsebody","label":"1➛responseBody","reference_display":"responseBody","type":"string","base_type":"string"},{"name":"33ca371d-f0cf-498b-b301-9d9a3f99f6b4.resposecode","label":"1➛resposeCode","reference_display":"resposeCode","type":"string","base_type":"string"},{"name":"Updated_1.current.page_id","label":"Trigger➛Facebook page Record➛page ID","reference":"","reference_display":"page ID","type":"string","base_type":"string","parent_table_name":"x_287654_facebook_facebook_page","column_name":"page_id"}]</label_cache>
+        <master>true</master>
+        <name>get page feed</name>
+        <outputs/>
+        <parent_flow display_value="get page feed">28f9f169db532300cd665421cf9619b6</parent_flow>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-29 09:32:55</sys_created_on>
+        <sys_id>76254aa1db932300cd665421cf9619b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>get page feed</sys_name>
+        <sys_package display_value="Facebook comment analysis" source="x_287654_facebook">5ff55684db6ee300cd665421cf961969</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Facebook comment analysis">5ff55684db6ee300cd665421cf961969</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_76254aa1db932300cd665421cf9619b1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-29 09:32:55</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=76254aa1db932300cd665421cf9619b1"/>
+    <sys_variable_value action="delete_multiple" query="document_key=76254aa1db932300cd665421cf9619b1"/>
+</record_update>

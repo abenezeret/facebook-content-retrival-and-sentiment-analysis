@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_287654_facebook.get_polarity</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>get_polarity</name>
+        <script><![CDATA[var get_polarity = Class.create();
+get_polarity.prototype = {
+    initialize: function() {
+    },
+	
+	getPolarity : function(inputText)
+	{
+
+					var encodedText =  encodeURI(inputText,'UTF-8');
+
+	gs.info(inputText);
+			try {
+		 var r = new sn_ws.RESTMessageV2('x_287654_facebook.sentiment_analysis_MeaningCloud _API', 'get_polarity');
+ r.setStringParameterNoEscape('text', encodedText);
+				
+				var response = r.execute();
+				var responseString = response.getBody();
+				var httpStatus = response.getStatusCode();
+				
+				// changing return String to Object
+				var responseObject = JSON.parse(responseString);
+				
+				gs.info('script insclue text '+responseString);
+				
+				if(responseObject.error ==null && httpStatus == 200){
+					switch (responseObject.score_tag){
+						case 'P+':
+							return 7;
+						case 'P':
+							return 6;
+						case 'NEU':
+							return 5;
+						case 'N':
+							return 4;
+						case 'N+':
+							return 3;
+						case 'NONE':
+							return 0;
+							
+					}
+					
+				}
+				else{
+					return null;
+				}
+				}
+				catch(ex) {
+					var message = ex.message;
+					gs.info(message);
+				}
+				
+			},
+
+	
+
+    type: 'get_polarity'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-18 11:22:41</sys_created_on>
+        <sys_id>73b4b58edb432300cd665421cf9619b0</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>get_polarity</sys_name>
+        <sys_package display_value="Facebook comment analysis" source="x_287654_facebook">5ff55684db6ee300cd665421cf961969</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Facebook comment analysis">5ff55684db6ee300cd665421cf961969</sys_scope>
+        <sys_update_name>sys_script_include_73b4b58edb432300cd665421cf9619b0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-18 11:43:15</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Facebook Posts" max_length="40" name="x_287654_facebook_facebook_posts" type="collection">
+        <element default="0" label="Comments polarity" max_length="40" name="comments_polarity" read_only="true" type="float"/>
+        <element label="created time" max_length="40" name="created_time" read_only="true" type="glide_date_time"/>
+        <element default="0" label="Post Polarity" max_length="40" name="polarity" read_only="true" type="integer"/>
+        <element label="Post content" max_length="2000" name="post_content" type="string"/>
+        <element display="true" label="Post ID" max_length="40" name="post_id" type="string"/>
+        <element label="Post page" max_length="32" name="post_page" reference="x_287654_facebook_facebook_page" type="reference"/>
+        <element label="Translated text" max_length="4000" name="translated_text" type="string_full_utf8"/>
+        <index name="index">
+            <element name="post_page"/>
+        </index>
+    </element>
+</database>

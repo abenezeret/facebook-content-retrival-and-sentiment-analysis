@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>comments polarity cualculater for post.</description>
+        <internal_name>comments_polarity_cualculater</internal_name>
+        <label_cache>[{"name":"{{action.records}}","label":"action➛records","type":"action","ref":"x_287654_facebook_facebook_posts"},{"name":"{{action.count}}","label":"action➛count","type":"action","ref":""},{"name":"{{step[29c6c0d8-a616-4c22-924e-981eb23017b3].p}}","label":"step➛Script step➛p","type":"step","ref":""},{"name":"{{step[29c6c0d8-a616-4c22-924e-981eb23017b3].po}}","label":"step➛Script step➛po","type":"step","ref":""},{"name":"{{step[29c6c0d8-a616-4c22-924e-981eb23017b3].pol}}","label":"step➛Script step➛pol","type":"step","ref":""},{"name":"{{step[29c6c0d8-a616-4c22-924e-981eb23017b3].pola}}","label":"step➛Script step➛pola","type":"step","ref":""},{"name":"{{step[29c6c0d8-a616-4c22-924e-981eb23017b3].polar}}","label":"step➛Script step➛polar","type":"step","ref":""},{"name":"{{step[29c6c0d8-a616-4c22-924e-981eb23017b3].polari}}","label":"step➛Script step➛polari","type":"step","ref":""},{"name":"{{step[29c6c0d8-a616-4c22-924e-981eb23017b3].polarit}}","label":"step➛Script step➛polarit","type":"step","ref":""},{"name":"{{step[29c6c0d8-a616-4c22-924e-981eb23017b3].polarity}}","label":"step➛Script step➛polarity","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>68fa3375db136300cd665421cf96191d</latest_snapshot>
+        <master_snapshot>d1c93ff1db136300cd665421cf961965</master_snapshot>
+        <name>comments polarity cualculater</name>
+        <outputs/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-30 12:20:11</sys_created_on>
+        <sys_id>ba05777ddbdf2300cd665421cf9619f5</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>comments polarity cualculater</sys_name>
+        <sys_package display_value="Facebook comment analysis" source="x_287654_facebook">5ff55684db6ee300cd665421cf961969</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Facebook comment analysis">5ff55684db6ee300cd665421cf961969</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_ba05777ddbdf2300cd665421cf9619f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-30 12:46:03</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=ba05777ddbdf2300cd665421cf9619f5"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ba05777ddbdf2300cd665421cf9619f5"/>
+    <sys_element_mapping action="delete_multiple" query="id=ba05777ddbdf2300cd665421cf9619f5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>polarity</field>
+        <id>ba05777ddbdf2300cd665421cf9619f5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-30 12:28:04</sys_created_on>
+        <sys_id>c2d67ffddbdf2300cd665421cf96191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-30 12:28:04</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ba05777ddbdf2300cd665421cf9619f5</table>
+        <value>{{step[29c6c0d8-a616-4c22-924e-981eb23017b3].polarity}}</value>
+    </sys_element_mapping>
+</record_update>

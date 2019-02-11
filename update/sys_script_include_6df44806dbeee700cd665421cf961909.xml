@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_287654_facebook.comment_Loader</api_name>
+        <client_callable>true</client_callable>
+        <description>comment loader .</description>
+        <name>comment_Loader</name>
+        <script><![CDATA[var comment_Loader = Class.create();
+comment_Loader.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	
+	
+     getName: function() {
+
+			gs.log('start excution'+"yes");
+
+               var resultJsonString = this.getParameter('sysparm_passing_object');
+		 
+			gs.log('result string is =',resultstring);
+		 
+	    	var gr = new GlideRecord('x_287654_facebook_comments');
+			for( i=0; i < (resultJsonString.data.length); i++){
+
+								gr.initialize(); 
+								gr.comment_id = resultJsonString.data[i].id; 
+								gr.message = resultJsonString.data[i].message; 
+								gr.post_id = '121212121221';
+								gr.insert();
+				}
+				
+
+		 				
+		 
+               return   'return data is here';
+
+
+
+     },
+	
+    type: 'comment_Loader'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-24 06:43:11</sys_created_on>
+        <sys_id>6df44806dbeee700cd665421cf961909</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>comment_Loader</sys_name>
+        <sys_package display_value="Facebook comment analysis" source="x_287654_facebook">5ff55684db6ee300cd665421cf961969</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Facebook comment analysis">5ff55684db6ee300cd665421cf961969</sys_scope>
+        <sys_update_name>sys_script_include_6df44806dbeee700cd665421cf961909</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-24 08:23:24</sys_updated_on>
+    </sys_script_include>
+</record_update>

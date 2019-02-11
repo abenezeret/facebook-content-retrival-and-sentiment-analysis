@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_287654_facebook.translation</api_name>
+        <client_callable>false</client_callable>
+        <description>translate amharic text into English.</description>
+        <name>translation</name>
+        <script><![CDATA[var translation = Class.create();
+translation.prototype = {
+	initialize: function() {},
+		
+		transtaleMethod : function(inputText){
+			
+			var encodedText =  encodeURI(inputText,'UTF-8');
+			
+			gs.info('in script include'+ encodedText);
+			
+			try {
+				var r = new sn_ws.RESTMessageV2('x_287654_facebook.google translation', 'translate');
+				
+				r.setStringParameterNoEscape('google_translate_api_key', 'AIzaSyDZo4mjlRafIbJHIYbSxd4pe9mdPX1bHwE');
+				
+				r.setStringParameterNoEscape('text',encodedText  );
+				
+				var response = r.execute();
+				var responseString = response.getBody();
+				var httpStatus = response.getStatusCode();
+				
+				// changing return String to Object
+				var responseObject = JSON.parse(responseString);
+				
+				gs.info('script insclue text '+responseString);
+				
+				if(responseObject.error ==null && httpStatus == 200){
+				return		responseObject.data.translations[0].translatedText;
+				}
+				else{
+					return null;
+				}
+				}
+				catch(ex) {
+					var message = ex.message;
+					gs.info(message);
+				}
+				
+			},
+			
+			
+			
+			type: 'translation'
+		};
+		
+		]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-18 10:13:10</sys_created_on>
+        <sys_id>b0f2dd8edb032300cd665421cf96197a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>translation</sys_name>
+        <sys_package display_value="Facebook comment analysis" source="x_287654_facebook">5ff55684db6ee300cd665421cf961969</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Facebook comment analysis">5ff55684db6ee300cd665421cf961969</sys_scope>
+        <sys_update_name>sys_script_include_b0f2dd8edb032300cd665421cf96197a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-18 10:31:11</sys_updated_on>
+    </sys_script_include>
+</record_update>

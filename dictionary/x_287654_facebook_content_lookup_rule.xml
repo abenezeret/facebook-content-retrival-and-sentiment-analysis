@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" extends="dl_matcher" label="content lookup rule" max_length="40" name="x_287654_facebook_content_lookup_rule" type="collection">
+        <element label="synonym" max_length="2000" name="synonym" type="string_full_utf8"/>
+        <element label="Value" max_length="40" name="value" type="integer"/>
+        <element label="word" max_length="255" name="word" type="string_full_utf8"/>
+    </element>
+</database>

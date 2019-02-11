@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>get data from Facebook and fill the field in page table</description>
+        <internal_name>past_information_loader</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current.page_id","label":"Trigger➛Facebook page Record➛page ID","reference":"","reference_display":"page ID","type":"string","base_type":"string","parent_table_name":"x_287654_facebook_facebook_page","column_name":"page_id"},{"name":"7b26f666-11d8-4af2-a550-97f942e73a25.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"7b26f666-11d8-4af2-a550-97f942e73a25.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"Created or Updated_1.current","label":"Trigger➛Facebook page Record","reference":"x_287654_facebook_facebook_page","reference_display":"Facebook page","type":"reference","base_type":"reference"},{"name":"947ffa54-1b58-4ee1-9fe6-7dcda7de2d28.outputjson","label":"1➛outputJson","reference_display":"outputJson","type":"string","base_type":"string"},{"name":"947ffa54-1b58-4ee1-9fe6-7dcda7de2d28.responsecode","label":"1➛responseCode","reference_display":"responseCode","type":"string","base_type":"string"},{"name":"947ffa54-1b58-4ee1-9fe6-7dcda7de2d28.state","label":"1➛state","reference_display":"state","type":"boolean","base_type":"boolean"},{"name":"947ffa54-1b58-4ee1-9fe6-7dcda7de2d28.name","label":"1➛name","reference_display":"name","type":"string","base_type":"string"},{"name":"947ffa54-1b58-4ee1-9fe6-7dcda7de2d28.about","label":"1➛about","reference_display":"about","type":"string","base_type":"string"},{"name":"947ffa54-1b58-4ee1-9fe6-7dcda7de2d28.category","label":"1➛category","reference_display":"category","type":"string","base_type":"string"},{"name":"524f4fcb-f518-4958-b6d0-1f96a1687ca3.record","label":"2.2➛Facebook page Record","reference":"x_287654_facebook_facebook_page","reference_display":"Facebook page","type":"reference","base_type":"reference"},{"name":"524f4fcb-f518-4958-b6d0-1f96a1687ca3.table_name","label":"2.2➛Facebook page Table","reference":"x_287654_facebook_facebook_page","reference_display":"Facebook page","type":"table_name","base_type":"table_name"},{"name":"b8e59442-0cff-4392-9ade-13bfca4d27d1.record","label":"2.1.1➛Facebook page Record","reference":"x_287654_facebook_facebook_page","reference_display":"Facebook page","type":"reference","base_type":"reference"},{"name":"b8e59442-0cff-4392-9ade-13bfca4d27d1.table_name","label":"2.1.1➛Facebook page Table","reference":"x_287654_facebook_facebook_page","reference_display":"Facebook page","type":"table_name","base_type":"table_name"},{"name":"cd772180-4364-4fda-9337-06f59b67179e.record","label":"3.1➛Facebook page Record","reference":"x_287654_facebook_facebook_page","reference_display":"Facebook page","type":"reference","base_type":"reference"},{"name":"cd772180-4364-4fda-9337-06f59b67179e.table_name","label":"3.1➛Facebook page Table","reference":"x_287654_facebook_facebook_page","reference_display":"Facebook page","type":"table_name","base_type":"table_name"},{"name":"947ffa54-1b58-4ee1-9fe6-7dcda7de2d28.responsebody","label":"1➛responseBody","reference_display":"responseBody","type":"string","base_type":"string"},{"name":"947ffa54-1b58-4ee1-9fe6-7dcda7de2d28.resposecode","label":"1➛resposeCode","reference_display":"resposeCode","type":"string","base_type":"string"},{"name":"89a45e6a-1e04-43d9-839c-2a490339de61.name","label":"2➛name","reference_display":"name","type":"string","base_type":"string"},{"name":"89a45e6a-1e04-43d9-839c-2a490339de61.catagory","label":"2➛catagory","reference_display":"catagory","type":"string","base_type":"string"},{"name":"89a45e6a-1e04-43d9-839c-2a490339de61.description","label":"2➛description","reference_display":"description","type":"string","base_type":"string"},{"name":"89a45e6a-1e04-43d9-839c-2a490339de61.state","label":"2➛state","reference_display":"state","type":"boolean","base_type":"boolean"}]</label_cache>
+        <latest_snapshot>c18a374edb132300cd665421cf961975</latest_snapshot>
+        <master_snapshot>07c7e12ddb132300cd665421cf961934</master_snapshot>
+        <name>Page information loader</name>
+        <outputs/>
+        <remote_trigger_id>0bc7e12ddb132300cd665421cf96197b</remote_trigger_id>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-29 07:08:17</sys_created_on>
+        <sys_id>1c142529db132300cd665421cf96192b</sys_id>
+        <sys_mod_count>43</sys_mod_count>
+        <sys_name>Page information loader</sys_name>
+        <sys_package display_value="Facebook comment analysis" source="x_287654_facebook">5ff55684db6ee300cd665421cf961969</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Facebook comment analysis">5ff55684db6ee300cd665421cf961969</sys_scope>
+        <sys_update_name>sys_hub_flow_1c142529db132300cd665421cf96192b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-31 10:38:32</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=1c142529db132300cd665421cf96192b"/>
+    <sys_variable_value action="delete_multiple" query="document_key=1c142529db132300cd665421cf96192b"/>
+</record_update>

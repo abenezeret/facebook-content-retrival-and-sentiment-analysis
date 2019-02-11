@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Facebook page" max_length="40" name="x_287654_facebook_facebook_page" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Page category" max_length="40" name="category" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Page description" max_length="1000" name="description" type="string"/>
+        <element label="get feed ui action" max_length="40" name="get_feed_ui_action" type="boolean"/>
+        <element label="page ID" max_length="40" name="page_id" type="string"/>
+        <element display="true" label="page name" max_length="40" name="page_name" read_only="true" type="string"/>
+    </element>
+</database>

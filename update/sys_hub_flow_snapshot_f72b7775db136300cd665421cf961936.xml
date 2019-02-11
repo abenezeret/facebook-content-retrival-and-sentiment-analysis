@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>sentiment analysis for comment</description>
+        <internal_name>sentiment_analysis_for_comment</internal_name>
+        <label_cache>[{"name":"c7bc693f-e5a0-4a5a-8277-7b2723473eeb.table_name","label":"6.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"c7bc693f-e5a0-4a5a-8277-7b2723473eeb.record","label":"6.1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"4346c20d-7324-483b-a53c-d696edd4d849.table_name","label":"5.1➛Facebook Comments Table","reference":"x_287654_facebook_facebook_comments","reference_display":"Facebook Comments","type":"table_name","base_type":"table_name"},{"name":"4346c20d-7324-483b-a53c-d696edd4d849.record","label":"5.1➛Facebook Comments Record","reference":"x_287654_facebook_facebook_comments","reference_display":"Facebook Comments","type":"reference","base_type":"reference"},{"name":"Updated_1.current","label":"Trigger➛Facebook Comments Record","reference":"x_287654_facebook_facebook_comments","reference_display":"Facebook Comments","type":"reference","base_type":"reference"},{"name":"9e941180-131c-4f87-87ec-f22169d0c0f0.table_name","label":"4.1➛Facebook Comments Table","reference":"x_287654_facebook_facebook_comments","reference_display":"Facebook Comments","type":"table_name","base_type":"table_name"},{"name":"9e941180-131c-4f87-87ec-f22169d0c0f0.record","label":"4.1➛Facebook Comments Record","reference":"x_287654_facebook_facebook_comments","reference_display":"Facebook Comments","type":"reference","base_type":"reference"},{"name":"e1f4a384-7f8a-413e-a8a5-92cfe61f454a.ou_value","label":"3➛ou_value","reference_display":"ou_value","type":"integer","base_type":"integer"},{"name":"Updated_1.current.translated","label":"Trigger➛Facebook Comments Record➛Translated","reference":"","reference_display":"Translated","type":"string_full_utf8","base_type":"string_full_utf8","parent_table_name":"x_287654_facebook_facebook_comments","column_name":"translated"},{"name":"e18ddf7e-cca5-462a-a40c-712a4d0b0231.sentimentresponse","label":"2➛sentimentResponse","reference_display":"sentimentResponse","type":"string","base_type":"string"},{"name":"2ccd12f7-c72d-44c4-a115-4cacbb2510c0.property_value","label":"1➛property_value","reference_display":"property_value","type":"string","base_type":"string"}]</label_cache>
+        <master>true</master>
+        <name>sentiment analysis for comment</name>
+        <outputs/>
+        <parent_flow display_value="sentiment analysis for comment">7c21fff9dbdf2300cd665421cf96198a</parent_flow>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-30 12:47:01</sys_created_on>
+        <sys_id>f72b7775db136300cd665421cf961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sentiment analysis for comment</sys_name>
+        <sys_package display_value="Facebook comment analysis" source="x_287654_facebook">5ff55684db6ee300cd665421cf961969</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Facebook comment analysis">5ff55684db6ee300cd665421cf961969</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_f72b7775db136300cd665421cf961936</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-30 12:47:01</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=f72b7775db136300cd665421cf961936"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f72b7775db136300cd665421cf961936"/>
+</record_update>

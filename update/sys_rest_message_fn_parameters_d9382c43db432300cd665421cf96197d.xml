@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
+        <name>short-lived-token</name>
+        <rest_message_function display_value="extender_method">5b87ec03db432300cd665421cf961969</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-21 08:21:57</sys_created_on>
+        <sys_id>d9382c43db432300cd665421cf96197d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>short-lived-token</sys_name>
+        <sys_package display_value="Facebook comment analysis" source="x_287654_facebook">5ff55684db6ee300cd665421cf961969</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Facebook comment analysis">5ff55684db6ee300cd665421cf961969</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_d9382c43db432300cd665421cf96197d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-21 08:22:50</sys_updated_on>
+        <type>string</type>
+        <value>EAAJBZAFOByswBAPZAzOXNcLvgzqh1Y87THLvlzmE3IZBD7JI5ZBH6RZC8I7gkdBoyiqyWIhEtLQPa6GzJgpXrZCvPTQa6MFkq4LaCBZBmaXXmitFiwu7kkBg3TsDJqXDv9xIjrZB8fKpPtF0YFYsTHYEuTekbD5to3ZBCW2ZAZCXWU0OfdOFTI75R8E</value>
+    </sys_rest_message_fn_parameters>
+</record_update>

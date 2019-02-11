@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Get Property">8068f86ddb3a6300cd665421cf961964</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="sentiment analysis flow">5ebaaff5dbdf2300cd665421cf96198c</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-30 11:54:56</sys_created_on>
+        <sys_id>7c4f6fb9dbdf2300cd665421cf96199a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Facebook comment analysis" source="x_287654_facebook">5ff55684db6ee300cd665421cf961969</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Facebook comment analysis">5ff55684db6ee300cd665421cf961969</sys_scope>
+        <sys_update_name>sys_hub_action_instance_7c4f6fb9dbdf2300cd665421cf96199a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-30 12:43:01</sys_updated_on>
+        <ui_id>53bdc71a-0b52-4fa3-a5cc-d58c1f2dbd54</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7c4f6fb9dbdf2300cd665421cf96199a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7c4f6fb9dbdf2300cd665421cf96199a</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-30 11:54:56</sys_created_on>
+        <sys_id>704f6fb9dbdf2300cd665421cf9619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-30 11:54:56</sys_updated_on>
+        <value>x_287654_google_in.google_cloud</value>
+        <variable display_value="">1da3c1a5db7a6300cd665421cf96199b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7c4f6fb9dbdf2300cd665421cf96199a</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-30 12:43:01</sys_created_on>
+        <sys_id>cd4af335db136300cd665421cf961965</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-30 12:43:01</sys_updated_on>
+        <value>x_287654_google_in.google_cloud</value>
+        <variable display_value="">2a1cf861db7a6300cd665421cf9619ad</variable>
+    </sys_variable_value>
+</record_update>

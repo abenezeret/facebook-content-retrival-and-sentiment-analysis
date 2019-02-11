@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_287654_facebook_facebook_comments</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_287654_facebook_facebook_comments">polarity!=0^EQ<item endquery="false" field="polarity" goto="false" newquery="false" operator="!=" or="false" value="0"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>post comment polarity</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	
+	gs.info('post id ==='+current.for_post);
+	var postPolarity =0;
+	
+	
+	var gr = new GlideRecord('x_287654_facebook_facebook_comments');
+	gr.addQuery('for_post',current.for_post);
+	gr.query();
+	var noOfComment = 0;
+	while(gr.next()){
+	gs.info('YEssssss   ='+gr.getValue('polarity'));
+		if(gr.getValue('polarity') != 0){
+	postPolarity = parseInt(postPolarity) +parseInt(gr.getValue('polarity'));
+	}	
+	noOfComment++;
+	}
+	
+	postPolarity = parseInt(postPolarity)/parseInt(noOfComment);
+	gs.info(noOfComment+'  final post polarity'+postPolarity);
+	
+	
+	
+	var pgr = new GlideRecord('x_287654_facebook_facebook_posts');
+	pgr.get(current.for_post);
+	pgr.setValue('comments_polarity',postPolarity);
+	pgr.update();
+	
+	
+	
+	// Add your code here
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-21 07:44:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f96f140fdb032300cd665421cf9619dd</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>post comment polarity</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Facebook comment analysis" source="x_287654_facebook">5ff55684db6ee300cd665421cf961969</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Facebook comment analysis">5ff55684db6ee300cd665421cf961969</sys_scope>
+        <sys_update_name>sys_script_f96f140fdb032300cd665421cf9619dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-08 10:36:52</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=f96f140fdb032300cd665421cf9619dd"/>
+</record_update>

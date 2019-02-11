@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>sentiment analysis flow for posts.</description>
+        <internal_name>sentiment_analysis_flow</internal_name>
+        <label_cache>[{"name":"82e2b979-a0d1-4335-97fc-5b2636d3a9fb.table_name","label":"6.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"82e2b979-a0d1-4335-97fc-5b2636d3a9fb.record","label":"6.1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"93b1655f-ffcb-4a4a-bfc8-45c13dad2964.table_name","label":"5.1➛Facebook Posts Table","reference":"x_287654_facebook_facebook_posts","reference_display":"Facebook Posts","type":"table_name","base_type":"table_name"},{"name":"93b1655f-ffcb-4a4a-bfc8-45c13dad2964.record","label":"5.1➛Facebook Posts Record","reference":"x_287654_facebook_facebook_posts","reference_display":"Facebook Posts","type":"reference","base_type":"reference"},{"name":"ba69c6ff-ef00-4c81-b905-f522af0c6549.table_name","label":"4.1➛Facebook Posts Table","reference":"x_287654_facebook_facebook_posts","reference_display":"Facebook Posts","type":"table_name","base_type":"table_name"},{"name":"ba69c6ff-ef00-4c81-b905-f522af0c6549.record","label":"4.1➛Facebook Posts Record","reference":"x_287654_facebook_facebook_posts","reference_display":"Facebook Posts","type":"reference","base_type":"reference"},{"name":"Updated_1.current","label":"Trigger➛Facebook Posts Record","reference":"x_287654_facebook_facebook_posts","reference_display":"Facebook Posts","type":"reference","base_type":"reference"},{"name":"df41781a-f3d7-43de-a9d2-0cf23155b422.table_name","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"df41781a-f3d7-43de-a9d2-0cf23155b422.record","label":"4➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"11e21b29-e6e2-4fc0-aac6-fc5f4e426161.ou_value","label":"3➛ou_value","reference_display":"ou_value","type":"integer","base_type":"integer"},{"name":"Updated_1.current.translated_text","label":"Trigger➛Facebook Posts Record➛Translated text","reference":"","reference_display":"Translated text","type":"string_full_utf8","base_type":"string_full_utf8","parent_table_name":"x_287654_facebook_facebook_posts","column_name":"translated_text"},{"name":"a640ca08-eeb1-4a5c-8702-5a65e2c412b7.sentimentresponse","label":"2➛sentimentResponse","reference_display":"sentimentResponse","type":"string","base_type":"string"},{"name":"53bdc71a-0b52-4fa3-a5cc-d58c1f2dbd54.property_value","label":"1➛property_value","reference_display":"property_value","type":"string","base_type":"string"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>sentiment analysis flow</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>true</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-30 11:35:06</sys_created_on>
+        <sys_id>5ebaaff5dbdf2300cd665421cf96198c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>sentiment analysis flow</sys_name>
+        <sys_package display_value="Facebook comment analysis" source="x_287654_facebook">5ff55684db6ee300cd665421cf961969</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Facebook comment analysis">5ff55684db6ee300cd665421cf961969</sys_scope>
+        <sys_update_name>sys_hub_flow_5ebaaff5dbdf2300cd665421cf96198c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-30 12:43:00</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=5ebaaff5dbdf2300cd665421cf96198c"/>
+    <sys_variable_value action="delete_multiple" query="document_key=5ebaaff5dbdf2300cd665421cf96198c"/>
+</record_update>

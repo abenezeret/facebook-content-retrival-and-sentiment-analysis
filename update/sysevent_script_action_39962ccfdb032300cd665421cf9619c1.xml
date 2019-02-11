@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_script_action">
+    <sysevent_script_action action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <condition_script/>
+        <description/>
+        <event_name>x_287654_facebook.access_tocken_extend_n</event_name>
+        <name>Access token extender</name>
+        <order>100</order>
+        <script><![CDATA[try { 
+ var r = new sn_ws.RESTMessageV2('x_287654_facebook.Fb access token extend', 'extender_method');
+ r.setStringParameterNoEscape('app-id', gs.getProperty('x_287654_facebook.Facebook app id'));
+ r.setStringParameterNoEscape('app-secret', gs.getProperty('x_287654_facebook.facebook app secret'));
+ r.setStringParameterNoEscape('short-lived-token',gs.getProperty('x_287654_facebook.fb_access_tocken'));
+
+
+ var response = r.execute();
+ var responseBody = response.getBody();
+ var httpStatus = response.getStatusCode();
+	
+responseBody = JSON.parse(responseBody);
+	gs.setProperty('x_287654_facebook.Fb access token extend',responseBody.access_token,'facebook access token updated');
+	gs.addInfoMessage('facebook access token updated');
+}
+catch(ex) {
+ var message = ex.message;
+}]]></script>
+        <synchronous>false</synchronous>
+        <sys_class_name>sysevent_script_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-21 08:16:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>39962ccfdb032300cd665421cf9619c1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Access token extender</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Facebook comment analysis" source="x_287654_facebook">5ff55684db6ee300cd665421cf961969</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Facebook comment analysis">5ff55684db6ee300cd665421cf961969</sys_scope>
+        <sys_update_name>sysevent_script_action_39962ccfdb032300cd665421cf9619c1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-21 08:38:00</sys_updated_on>
+    </sysevent_script_action>
+</record_update>

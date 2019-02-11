@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>respond_json_comments_analysis</internal_name>
+        <label_cache>[{"name":"{{action.responsebody}}","label":"action➛responseBody","type":"action","ref":""},{"name":"{{action.resposecode}}","label":"action➛resposeCode","type":"action","ref":""},{"name":"{{action.page_sysid}}","label":"action➛page SYSID","type":"action","ref":""}]</label_cache>
+        <latest_snapshot>067c7d70dbeb2300cd665421cf9619dc</latest_snapshot>
+        <master_snapshot>867cbd70dbeb2300cd665421cf96190f</master_snapshot>
+        <name>respond Json comments analysis</name>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-08 11:04:09</sys_created_on>
+        <sys_id>20f93130dbeb2300cd665421cf9619b7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>respond Json comments analysis</sys_name>
+        <sys_package display_value="Facebook comment analysis" source="x_287654_facebook">5ff55684db6ee300cd665421cf961969</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Facebook comment analysis">5ff55684db6ee300cd665421cf961969</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_20f93130dbeb2300cd665421cf9619b7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-08 11:15:11</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=20f93130dbeb2300cd665421cf9619b7"/>
+    <sys_variable_value action="delete_multiple" query="document_key=20f93130dbeb2300cd665421cf9619b7"/>
+</record_update>

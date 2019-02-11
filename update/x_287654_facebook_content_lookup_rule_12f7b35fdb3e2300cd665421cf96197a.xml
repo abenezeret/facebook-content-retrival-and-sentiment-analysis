@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_287654_facebook_content_lookup_rule">
+    <x_287654_facebook_content_lookup_rule action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <order>100</order>
+        <synonym>ነፃነት&#13;
+አሉታዊ&#13;
+አሸባሪ&#13;
+ሸረኛ&#13;
+ሸክም&#13;
+ጋኔን&#13;
+ወሬ&#13;
+ወሬኛ&#13;
+ጥንብ&#13;
+ያለመሳካት&#13;
+የሚቃረን&#13;
+ተፅእኖ&#13;
+ዘገምተኛ&#13;
+አመል&#13;
+አፋኝ&#13;
+ሀሰት&#13;
+መርዘኛ&#13;
+አማፂ&#13;
+የሚያሳዝን&#13;
+ምፀት&#13;
+ዘልዛላ&#13;
+ባርነት&#13;
+ውሸታም&#13;
+አክራሪ&#13;
+አጭበርባሪ&#13;
+ምቅኝነት&#13;
+ደነዝ&#13;
+ጭንቀት&#13;
+ጩኸት&#13;
+ሰይጣን</synonym>
+        <sys_class_name>x_287654_facebook_content_lookup_rule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-10 07:52:45</sys_created_on>
+        <sys_id>12f7b35fdb3e2300cd665421cf96197a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>100</sys_name>
+        <sys_package display_value="Facebook comment analysis" source="x_287654_facebook">5ff55684db6ee300cd665421cf961969</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Facebook comment analysis">5ff55684db6ee300cd665421cf961969</sys_scope>
+        <sys_update_name>x_287654_facebook_content_lookup_rule_12f7b35fdb3e2300cd665421cf96197a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-10 07:52:45</sys_updated_on>
+        <value>4</value>
+        <word>ደነዝ</word>
+    </x_287654_facebook_content_lookup_rule>
+</record_update>
